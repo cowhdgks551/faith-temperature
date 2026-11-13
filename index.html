@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101827"><meta name="description" content="등달자 - 올해의 신앙을 돌아보고 내년의 진심을 준비하는 신앙 온도계">
+<title>등달자 | 나의 신앙 온도계</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1320;--panel:#172337;--panel2:#101b2b;--gold:#efc979;--gold2:#c89542;--ink:#f7f1e5;--muted:#b9c2d0;--line:#344258;--green:#b5d5b1;--red:#f1a6a0}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#29354a 0,#111b2b 45%,#090f19 100%);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;min-height:100vh}button,input,textarea{font:inherit}button{cursor:pointer}main{max-width:720px;margin:auto;padding:18px 15px 52px}.brand{text-align:center;color:var(--gold);font-size:11px;letter-spacing:3px;margin:8px 0 16px}header{text-align:center;padding:25px 16px 22px;border:1px solid #6e5834;border-radius:22px;background:linear-gradient(150deg,#202c40,#111a29);box-shadow:0 16px 50px #0005}.lantern{font-size:50px;filter:drop-shadow(0 0 18px #f5c96c);margin-bottom:4px}h1{font-size:clamp(27px,7vw,36px);letter-spacing:2px;margin:0;color:#f4d38e}header p{color:var(--muted);line-height:1.7;margin:10px 0 0;font-size:14px}.verse{font-size:12px;color:#d8c49c;margin-top:15px;line-height:1.7}.tabs{display:flex;gap:8px;margin:16px 0}.tabs button,.btn{border:0;border-radius:12px;padding:13px 16px;font-weight:750}.tabs button{flex:1;background:#202c40;color:var(--muted)}.tabs button.active,.btn{background:linear-gradient(120deg,#f4d894,#c89542);color:#1b1a17}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:19px;margin:13px 0;box-shadow:0 8px 28px #0002}h2{font-size:19px;margin:0 0 8px;color:#f2d28f}h3{font-size:15px;margin:0 0 10px}.small{font-size:12px;color:var(--muted);line-height:1.7}.field{margin:17px 0}label.field-label{display:block;font-size:14px;margin-bottom:9px;color:#f2e8d4;line-height:1.55}.input,textarea{width:100%;background:#0f1928;border:1px solid #48566d;border-radius:11px;padding:13px;color:white;outline:none}.input:focus,textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px #efc97920}textarea{min-height:88px;resize:vertical}.option{display:flex;align-items:flex-start;gap:10px;padding:12px;background:var(--panel2);border:1px solid var(--line);border-radius:11px;margin:7px 0;font-size:13px;line-height:1.55;cursor:pointer}.option:has(input:checked){border-color:#d5ad63;background:#273247}.option input{margin-top:3px;accent-color:#e9bf69;flex-shrink:0}.btn{width:100%;font-size:15px;margin-top:8px}.btn:disabled{opacity:.55;cursor:wait}.secondary{background:#28364b;color:#f4d38e;border:1px solid #53627a}.notice{padding:13px;border-radius:11px;background:#202d40;color:#cbd5e2;font-size:12px;line-height:1.7}.hidden{display:none!important}.result{text-align:center;padding:23px}.degree{font-size:64px;font-weight:850;color:var(--gold);margin:4px;text-shadow:0 0 25px #e9bd5b66}.bar{height:12px;background:#0b1421;border-radius:20px;overflow:hidden;margin:14px 0}.bar span{display:block;height:100%;background:linear-gradient(90deg,#bd8741,#ffe3a0);border-radius:20px;transition:width .6s}.pill{display:inline-block;font-size:11px;color:#1a1a1a;background:var(--gold);border-radius:30px;padding:4px 9px;font-weight:800}.row{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:13px}.row span:last-child{text-align:right;overflow-wrap:anywhere}.stat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:12px 0}.stat{background:#101b2b;border:1px solid var(--line);padding:14px;border-radius:13px}.stat strong{display:block;font-size:24px;color:var(--gold);margin-top:4px}.response{background:#101b2b;border:1px solid var(--line);border-radius:14px;padding:15px;margin:10px 0}.response h3{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}.answerline{padding:8px 0;border-bottom:1px solid #2b394d;font-size:12px;line-height:1.6}.answerline b{color:#f2d28f;display:block}.toolbar{display:flex;gap:8px;flex-wrap:wrap}.toolbar .btn{width:auto;flex:1;min-width:130px}.muted-link{color:#efc979;text-decoration:underline;text-underline-offset:3px;background:none;border:0;padding:0;font-size:12px}footer{text-align:center;color:#8290a3;font-size:11px;margin-top:24px}.status{margin-top:10px;font-size:12px;line-height:1.6;color:var(--green)}.error{color:var(--red)}.question-index{color:var(--gold);font-size:11px;letter-spacing:1px;margin-bottom:4px}@media(max-width:420px){main{padding-left:12px;padding-right:12px}.card{padding:16px}.row{font-size:12px}}
+</style>
+</head>
+<body><main>
+<div class="brand">CHEONGPYEONG YOUNG ADULT</div>
+<header><div class="lantern">🏮</div><h1>나의 신앙 온도계</h1><p>빛의 끝에서, 빛의 시작으로<br>올해의 나를 돌아보고 내년의 진심을 준비하는 시간</p><div class="verse">“일어나라 빛을 발하라”<br>이사야 60:1</div></header>
+<div class="tabs"><button id="surveyTab" class="active" type="button">신앙 온도계</button><button id="adminTab" type="button">운영진 관리</button></div>
+<section id="surveySection">
+<div class="card"><h2>01. 올해의 나를 돌아보기</h2><p class="small">예배와 전도 사역을 포함해 올해 실제 나의 모습과 가장 가까운 답변을 선택해 주세요. 각 답변에 따라 신앙 온도가 자동 계산됩니다. 정답이나 오답은 없습니다.</p>
+<div class="field"><label class="field-label" for="participantName">이름</label><input class="input" id="participantName" maxlength="30" autocomplete="name" placeholder="이름을 입력해 주세요"></div>
+<div id="questions"></div>
+</div>
+<div class="card"><h2>02. 올해의 신앙을 돌아보며</h2>
+<div class="field"><label class="field-label" for="reflection">올해 하나님과 함께했던 순간 중 가장 기억에 남는 일은 무엇인가요?</label><textarea id="reflection" maxlength="3000" placeholder="감사했던 순간, 은혜받았던 순간 등을 자유롭게 적어 주세요."></textarea></div>
+<div class="field"><label class="field-label" for="challenge">올해 신앙생활에서 가장 아쉬웠거나 다시 회복하고 싶은 부분은 무엇인가요?</label><textarea id="challenge" maxlength="3000" placeholder="솔직한 마음을 적어 주세요."></textarea></div>
+</div>
+<div class="card"><h2>03. 내년, 나의 진심</h2><p class="small">이 항목은 현재 온도 점수에는 반영되지 않습니다. 다가오는 한 해의 나의 결단을 정리하는 질문입니다.</p>
+<div class="field"><label class="field-label">내년에 가장 회복하고 싶은 신앙의 영역은 무엇인가요? (복수 선택 가능)</label><div id="goals"></div></div>
+<div class="field"><label class="field-label" for="commitment">내년에 하나님께 드리고 싶은 나의 진심은 무엇인가요?</label><textarea id="commitment" maxlength="3000" placeholder="내가 하나님 앞에서 다시 시작하고 싶은 마음을 적어 주세요."></textarea></div>
+<div class="field"><label class="field-label" for="action">내가 실천할 작은 행동 한 가지는 무엇인가요?</label><input class="input" id="action" maxlength="150" placeholder="예: 매주 한 번은 시간을 정해 말씀 읽기"></div>
+</div>
+<div class="notice">이름과 개인적인 신앙 이야기가 운영진에게 전달됩니다. 응답 내용은 수련회 운영 및 개인의 신앙 돌아보기를 위해 신중하게 다뤄 주세요.</div>
+<button class="btn" id="submitBtn" type="button">나의 신앙 온도 확인하기</button>
+<div id="submitStatus" class="status" role="status" aria-live="polite"></div>
+<div id="resultCard" class="card result hidden"><div class="pill">진단 완료</div><h2 style="margin-top:14px">올해 나의 신앙 온도</h2><div class="degree" id="resultDegree"></div><div class="bar"><span id="resultBar"></span></div><h3 id="resultTitle"></h3><p id="resultText" class="small"></p><p class="small">온도는 나를 평가하는 점수가 아니라, 다시 하나님께 나아가기 위한 현재의 출발점입니다.</p><h2 style="margin-top:20px">내년 나의 진심</h2><p id="resultCommitment" class="small"></p><p style="color:#efc979">빛의 끝에서, 빛의 시작으로.</p></div>
+</section>
+<section id="adminSection" class="hidden">
+<div class="card"><h2>운영진 전용 관리</h2><p class="small">등록된 관리자 이메일로 로그인해야 응답을 확인할 수 있습니다. 이메일로 전송되는 로그인 링크를 열어 주세요.</p>
+<div id="loginPanel"><div class="field"><label class="field-label" for="adminEmail">관리자 이메일</label><input class="input" id="adminEmail" type="email" autocomplete="username" placeholder="관리자 이메일 주소"></div><div class="field"><label class="field-label" for="adminPassword">관리자 비밀번호</label><input class="input" id="adminPassword" type="password" autocomplete="current-password" minlength="8" placeholder="8자 이상 비밀번호"></div><div class="toolbar"><button class="btn" id="loginAdmin" type="button">로그인</button><button class="btn secondary" id="createAdminAccount" type="button">처음 관리자 계정 만들기</button></div><p class="small">처음 한 번은 등록된 관리자 이메일로 계정을 만들고 이메일 인증을 완료해 주세요. 이후에는 설정한 비밀번호로 로그인합니다.</p></div>
+<div id="loginStatus" class="status" role="status" aria-live="polite"></div>
+<div id="adminPanel" class="hidden"><div class="row"><span id="signedInEmail"></span><button class="muted-link" id="signOut" type="button">로그아웃</button></div>
+<div class="stat-grid"><div class="stat"><span class="small">전체 응답</span><strong id="totalCount">0명</strong></div><div class="stat"><span class="small">평균 온도</span><strong id="averageTemp">-</strong></div></div>
+<div class="card" style="margin:10px 0;padding:14px"><h3>온도 분포</h3><div id="distribution"></div></div>
+<div class="field"><label class="field-label" for="searchName">이름으로 응답 검색</label><input class="input" id="searchName" placeholder="참가자 이름"></div>
+<div class="toolbar"><button class="btn" id="refreshResponses" type="button">새로고침</button><button class="btn secondary" id="downloadCsv" type="button">CSV 다운로드</button></div>
+<div id="responseList"></div>
+</div></div>
+</section>
+<footer>등달자 · 청평청년회 수련회 · MY FAITH TEMPERATURE</footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const SUPABASE_URL = "https://uuvemeseniiooojsaufe.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_wm6kOuXGd4lLrWllx5ILlw_e8LYpDhZ";
+const client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const questions = [
+{q:"올해 주일예배와 수요예배에 얼마나 꾸준히 참여했나요?",a:["주일·수요예배에 꾸준히 참여했다","대부분 참여했지만 간혹 빠졌다","둘 중 한 예배에 주로 참여하거나 참여가 불규칙했다","예배 참여가 매우 드물었다"]},
+{q:"예배 QR 인증은 실제 예배 참여와 일치했나요?",a:["예배에 실제로 참여하고 QR 인증도 정직하게 했다","예배는 참여하지만 말씀에 집중하지 못했다","QR인증은 했지만 예배에 지각하는 경우가 있었다","예배에 참여하지 않고 QR 인증만 한 경우가 있었다"]},
+{q:"올해 개인적으로 기도하는 시간을 얼마나 가졌나요?",a:["정기적으로 기도하며 하나님과 대화하는 시간을 가졌다","생각날 때마다 기도했지만 꾸준하지는 못했다","어려운 일이 있을 때 주로 기도했다","기도하는 시간이 거의 없었다"]},
+{q:"올해 성경 말씀을 읽거나 묵상하는 생활은 어땠나요?",a:["꾸준히 말씀을 읽고 삶에 적용하려 노력했다","가끔 읽고 묵상했지만 지속하기 어려웠다","예배나 모임에서 주로 말씀을 접했다","개인적으로 말씀을 읽는 시간이 거의 없었다"]},
+{q:"올해 일상에서 신앙의 가치를 얼마나 실천했나요?",a:["가정·학교·직장 등 일상에서 믿음을 꾸준히 실천했다","중요한 순간에는 신앙을 생각하고 실천하려 했다","신앙과 일상생활이 따로 느껴질 때가 많았다","일상에서 신앙을 실천하는 것을 거의 생각하지 못했다"]},
+{q:"올해 노방개척 및 전도활동에 얼마나 참여했나요?",a:["정기적으로 참여하며 꾸준히 전도활동을 했다","기회가 있을 때 여러 차례 참여했다","몇 차례 참여했지만 지속적이지는 못했다","전도활동에 거의 참여하지 못했다"]},
+{q:"전도활동에서 맡은 역할을 얼마나 책임감 있게 감당했나요?",a:["인도자·관리자·교사 등 맡은 역할을 주도적이고 성실하게 감당했다","맡은 역할을 대체로 성실하게 수행했다","역할 수행에 어려움이 있었거나 참여가 제한적이었다","맡은 역할이 없거나 전도팀 활동에 거의 참여하지 못했다"]},
+{q:"노방개척 이후 만남·복음방·센터로 이어지는 과정에 얼마나 함께했나요?",a:["노방개척부터 후속 만남, 복음방, 센터 과정까지 가능한 단계에 꾸준히 동행했다","만남이나 복음방 등 후속 과정에 참여하거나 지원했다","노방개척 중심으로 참여했고 후속 과정에는 함께할 기회가 적었다","전도 과정 전반에 거의 참여하지 못했다"]},
+{q:"전도 대상자와의 만남 이후 후속 연락과 팀원 간 협력에 얼마나 힘썼나요?",a:["대상자를 존중하며 꾸준히 연락하고 팀과 적극적으로 협력했다","필요한 후속 연락과 협력에 대체로 참여했다","요청이 있을 때 제한적으로 참여했다","후속 연락이나 팀 협력에 거의 참여하지 못했다"]},
+{q:"올해 하나님과 전도 사역을 대하는 나의 마음은 어땠나요?",a:["하나님을 향한 사랑과 영혼을 향한 마음으로 기쁘게 참여했다","열정이 오르내렸지만 다시 나아가려 노력했다","해야 한다는 생각은 있지만 마음과 행동이 잘 이어지지 않았다","신앙과 전도에 대한 관심과 열정이 많이 식어 있었다"]}
+];
+const goals=["예배의 기쁨과 예배 참석의 꾸준함 회복","기도 생활 다시 시작하기","말씀 읽기와 묵상 습관 만들기","하나님과의 개인적인 관계 회복","공동체 안에서 사랑하고 교제하기","섬김과 봉사에 적극적으로 참여하기","일상에서 믿음을 실천하기","신앙의 열정과 진심 회복하기"];
+const $ = id => document.getElementById(id);
+const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function buildForm(){
+  $("questions").innerHTML = questions.map((q,i)=>`<div class="field"><div class="question-index">QUESTION ${String(i+1).padStart(2,"0")}</div><label class="field-label">${i+1}. ${q.q}</label>${q.a.map((a,j)=>`<label class="option"><input type="radio" name="q${i}" value="${4-j}"><span>${a}</span></label>`).join("")}</div>`).join("");
+  $("goals").innerHTML = goals.map((g,i)=>`<label class="option"><input type="checkbox" name="goal" value="${esc(g)}"><span>${esc(g)}</span></label>`).join("");
+}
+function show(which){const admin=which==="admin";$("surveySection").classList.toggle("hidden",admin);$("adminSection").classList.toggle("hidden",!admin);$("surveyTab").classList.toggle("active",!admin);$("adminTab").classList.toggle("active",admin);if(admin) checkAdminSession();}
+$("surveyTab").addEventListener("click",()=>show("survey"));$("adminTab").addEventListener("click",()=>show("admin"));
+buildForm();
+
+function setStatus(el,message,isError=false){el.textContent=message;el.classList.toggle("error",isError);}
+function levelInfo(temp){return temp>=85?["뜨겁게 빛나는 신앙","올해 하나님과 동행하려는 마음과 실천이 꾸준했어요. 지금의 진심을 내년에도 겸손히 이어가 보세요."]:temp>=65?["따뜻하게 타오르는 신앙","하나님을 향한 마음과 실천이 이어지고 있어요. 작은 습관을 꾸준히 지켜 더 깊은 관계로 나아가 보세요."]:temp>=45?["다시 온기를 더할 신앙","신앙의 온기가 오르내리는 한 해였을 수 있어요. 부담을 내려놓고 예배와 기도, 말씀의 작은 자리부터 다시 시작해 보세요."]:["새로운 불씨가 필요한 신앙","올해 신앙이 멀게 느껴졌더라도 여기서 끝이 아니에요. 하나님은 다시 시작하는 한 걸음을 기다리십니다."];}
+$("submitBtn").addEventListener("click", submitSurvey);
+async function submitSurvey(){
+ const name=$("participantName").value.trim();const picked=questions.map((q,i)=>document.querySelector(`input[name="q${i}"]:checked`));
+ if(!name){alert("이름을 입력해 주세요.");$("participantName").focus();return;}if(picked.some(x=>!x)){alert("올해의 신앙 돌아보기 질문 10개에 모두 답변해 주세요.");return;}
+ const answers=picked.map((el,i)=>({index:i+1,score:Number(el.value),choice:questions[i].a[4-Number(el.value)]}));
+ const payload={name,answers,reflection:$("reflection").value.trim(),challenge:$("challenge").value.trim(),goals:[...document.querySelectorAll('input[name="goal"]:checked')].map(x=>x.value),commitment:$("commitment").value.trim(),action:$("action").value.trim()};
+ $("submitBtn").disabled=true;setStatus($("submitStatus"),"응답을 안전하게 저장하고 있어요…");
+ try{
+   const {data,error}=await client.functions.invoke("submit-faith-response",{body:payload});if(error)throw error;
+   const temp=data.temperature;const level=levelInfo(temp);$("resultDegree").textContent=temp+"°";$("resultBar").style.width=temp+"%";$("resultTitle").textContent=level[0];$("resultText").textContent=level[1];$("resultCommitment").textContent=payload.commitment||"내년의 진심을 아직 글로 적지 않았어요. 작은 실천부터 시작해 보세요.";$("resultCard").classList.remove("hidden");setStatus($("submitStatus"),"응답이 정상적으로 저장되었습니다. 참여해 주셔서 감사합니다.");$("resultCard").scrollIntoView({behavior:"smooth",block:"start"});
+ }catch(error){console.error(error);setStatus($("submitStatus"),error.message||"저장 중 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.",true);}
+ finally{$("submitBtn").disabled=false;}
+}
+
+$("loginAdmin").addEventListener("click",loginAdmin);
+$("createAdminAccount").addEventListener("click",createAdminAccount);
+function adminCredentials(){return {email:$("adminEmail").value.trim().toLowerCase(),password:$("adminPassword").value};}
+async function loginAdmin(){const {email,password}=adminCredentials();if(!email||!password){setStatus($("loginStatus"),"관리자 이메일과 비밀번호를 입력해 주세요.",true);return;}$("loginAdmin").disabled=true;setStatus($("loginStatus"),"관리자 로그인을 확인하고 있어요…");try{const {error}=await client.auth.signInWithPassword({email,password});if(error)throw error;await checkAdminSession();}catch(error){setStatus($("loginStatus"),error.message||"로그인에 실패했습니다.",true);}finally{$("loginAdmin").disabled=false;}}
+async function createAdminAccount(){const {email,password}=adminCredentials();if(!email||!password){setStatus($("loginStatus"),"관리자 이메일과 비밀번호를 입력해 주세요.",true);return;}if(password.length<8){setStatus($("loginStatus"),"비밀번호는 8자 이상으로 설정해 주세요.",true);return;}$("createAdminAccount").disabled=true;setStatus($("loginStatus"),"관리자 계정을 만들고 있어요…");try{const {data,error}=await client.auth.signUp({email,password,options:{emailRedirectTo:window.location.origin}});if(error)throw error;if(data.session){await checkAdminSession();}else{setStatus($("loginStatus"),"가입 확인 메일을 보냈습니다. 이메일 인증을 완료한 뒤 이 페이지에서 비밀번호로 로그인해 주세요.");}}catch(error){setStatus($("loginStatus"),error.message||"관리자 계정 생성에 실패했습니다.",true);}finally{$("createAdminAccount").disabled=false;}}
+let cachedResponses=[];
+async function checkAdminSession(){const {data:{session}}=await client.auth.getSession();if(!session){$("loginPanel").classList.remove("hidden");$("adminPanel").classList.add("hidden");return;}try{const {data,error}=await client.functions.invoke("claim-faith-admin",{body:{}});if(error)throw error;$("loginPanel").classList.add("hidden");$("adminPanel").classList.remove("hidden");$("signedInEmail").textContent=data.email||session.user.email||"관리자 로그인";setStatus($("loginStatus"),"관리자 인증이 완료되었습니다.");await loadResponses();}catch(error){await client.auth.signOut();$("loginPanel").classList.remove("hidden");$("adminPanel").classList.add("hidden");setStatus($("loginStatus"),error.message||"관리자 권한이 확인되지 않습니다.",true);}}
+async function loadResponses(){setStatus($("loginStatus"),"응답 목록을 불러오는 중…");const {data,error}=await client.from("faith_responses").select("id,participant_name,temperature,points,answers,reflection,challenge,goals,commitment,action,level,created_at").order("created_at",{ascending:false});if(error){setStatus($("loginStatus"),error.message,true);return;}cachedResponses=data||[];renderResponses();setStatus($("loginStatus"),"응답을 최신 상태로 불러왔습니다.");}
+function renderResponses(){const a=cachedResponses;$("totalCount").textContent=a.length+"명";$("averageTemp").textContent=a.length?(a.reduce((s,x)=>s+x.temperature,0)/a.length).toFixed(1)+"°":"-";const ranges=[[85,100,"85~100°"],[65,84,"65~84°"],[45,64,"45~64°"],[0,44,"0~44°"]];$("distribution").innerHTML=ranges.map(([lo,hi,label])=>`<div class="row"><span>${label}</span><strong>${a.filter(x=>x.temperature>=lo&&x.temperature<=hi).length}명</strong></div>`).join("");filterResponses();}
+function filterResponses(){const term=$("searchName").value.trim().toLowerCase();const a=cachedResponses.filter(x=>x.participant_name.toLowerCase().includes(term));$("responseList").innerHTML=a.map(x=>`<article class="response"><h3><span>${esc(x.participant_name)}</span><span class="pill">${x.temperature}° · ${esc(x.level)}</span></h3><div class="small">${new Date(x.created_at).toLocaleString("ko-KR")}</div><div class="row"><span>총점</span><strong>${x.points}/40</strong></div><div>${(x.answers||[]).map((ans,i)=>`<div class="answerline"><b>${i+1}. ${esc(questions[i]?.q||"")} · ${ans.score}점</b>${esc(ans.choice||"")}</div>`).join("")}</div>${detail("올해 하나님과 함께했던 순간",x.reflection)}${detail("올해 아쉬웠거나 회복하고 싶은 부분",x.challenge)}${detail("내년 회복 목표",Array.isArray(x.goals)?x.goals.join(" · "):"")}${detail("내년 하나님께 드리고 싶은 진심",x.commitment)}${detail("실천할 작은 행동",x.action)}</article>`).join("")||'<p class="small">검색 결과가 없습니다.</p>';}
+function detail(label,value){return value?`<div class="answerline"><b>${label}</b>${esc(value)}</div>`:"";}
+$("searchName").addEventListener("input",filterResponses);$("refreshResponses").addEventListener("click",loadResponses);
+$("downloadCsv").addEventListener("click",()=>{const cols=["이름","신앙온도","진단결과","총점","질문별 답변","올해 감사","올해 아쉬움","내년 회복 목표","내년 진심","실천 행동","응답 시간"];const rows=cachedResponses.map(x=>[x.participant_name,x.temperature,x.level,x.points,(x.answers||[]).map(a=>a.choice).join(" / "),x.reflection,x.challenge,(x.goals||[]).join(" / "),x.commitment,x.action,new Date(x.created_at).toLocaleString("ko-KR")]);const csv="\uFEFF"+[cols,...rows].map(r=>r.map(v=>'"'+String(v??"").replace(/"/g,'""')+'"').join(",")).join("\r\n");const blob=new Blob([csv],{type:"text/csv;charset=utf-8"});const url=URL.createObjectURL(blob);const link=document.createElement("a");link.href=url;link.download="등달자_신앙온도계_응답.csv";link.click();URL.revokeObjectURL(url);});
+$("signOut").addEventListener("click",async()=>{await client.auth.signOut();$("adminPanel").classList.add("hidden");$("loginPanel").classList.remove("hidden");setStatus($("loginStatus"),"로그아웃했습니다.");});
+client.auth.getSession().then(({data})=>{if(data.session)checkAdminSession();});
+</script></body></html>
